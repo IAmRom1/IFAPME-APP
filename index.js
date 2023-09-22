@@ -8,6 +8,7 @@ export class Cours {   // Exemple : Language de balisage
         this.ordre_prio = +(ordre_prio);               // number (1,2,3,4) tout les 1 passe avant tout les 2 ect ... / 0 si bas-les-couille
         this. mot_cle = mot_cle.map((e)=>e.toLowerCase());        // liste de str qui reprennent des mot associés au cours afin de le retrouver plus facilement (passée en minuscule)
         this.description = description;             // courte description du cours
+        this.prof = []                              // liste contenant des objet de classe Prof qui represente tout les profs capable de donné le cours
     }
 }
 
@@ -52,5 +53,11 @@ export class Prof  {
         this.nom = nom;                                 // STR
         this.cours_donne = cours_donne;                 // Liste d'objet de classe cours qui represente les cours que le prof peut donner
         this.disponibilite = disponibilite              // Objet de classe Semaine remplie avec les bonnes variable chaque jours pour les dispo du prof
+    }
+}
+
+export class Horraire{
+    constructor(){
+        
     }
 }

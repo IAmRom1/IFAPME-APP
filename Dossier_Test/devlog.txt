@@ -1,0 +1,25 @@
+
+Ordre de priorité pour créer l'horaire : 
+
+1. Pour une classe, choisir les 3 cours de priorité 1 dans la liste de cours de la Formation
+2. Pour chaque cours, regarder les dispo des profs et chercher un match entre les dispo des profs, et les dispo de chaques locaux. 
+- Dés qu'un prof match avec un local, modifier la dispo du prof et du local en occuper pour la date du match
+- Reduire de 4, le nombre d'heure restante pour le cours,
+- Ajouter le cours a l'horaire de la classe
+
+>>>>>>>>> Classe ==> cours ==> profs ==> local
+
+Horaire = liste de semaine jusqu'a ce que tous les cours soit a 0 heures restantes ? 
+
+Dans l'horaire, pour chaque periode, ajouter prof, classe, local
+
+on considère que nous avons 2 locaux seluement en journée avec 6 classe 
+
+dev 1
+reseau1
+resau2a
+resau2b
+dev 2a
+dev 2b
+6 classes * 3 crénaux = 18
+2 classe en journée = 2*5*2 = 20

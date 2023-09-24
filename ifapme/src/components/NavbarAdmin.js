@@ -1,8 +1,8 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import logoIfapme from "../assets/icons/ifapme_logo.svg";
 
-const Navbar = () => {
+const NavbarAdmin = () => {
   return (
     <div className="navbar">
       <img src={logoIfapme} alt="Logo IFAPME" />
@@ -13,8 +13,8 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Contact" className={(nav)=>(nav.isActive ? "nav-active" : "")}>
-            Contact
+          <NavLink to="/Tableau_de_bord" className={(nav)=>(nav.isActive ? "nav-active" : "")}>
+            Tableau de bord
           </NavLink>
         </li>
         <li>
@@ -27,4 +27,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarAdmin;

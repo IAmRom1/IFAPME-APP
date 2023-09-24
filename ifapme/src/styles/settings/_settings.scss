@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Kanit";
+    src: url(../../assets/fonts/Kanit/Kanit-Medium.ttf);
+}
+@font-face {
+    font-family: "Open sans";
+    src: url(../../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth-wght.ttf);
+}
+img{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

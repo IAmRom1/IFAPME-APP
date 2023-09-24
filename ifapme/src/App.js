@@ -6,6 +6,7 @@ import Horaire from "./pages/Horaire";
 import BordAdmin from "./pages/BordAdmin";
 import Contact from "./pages/Contact";
 import Profil from "./pages/Profil";
+import ForgetPasswords from "./pages/ForgetPasswords";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/Tableau_de_bord" element={<BordAdmin />} />
         <Route path="/Profil" element={<Profil/>} />
         <Route path="/Contact" element={<Contact/>} />
+        <Route path="/Forget_Passwords" element={<ForgetPasswords/>} />
       </Routes>
     </BrowserRouter>
   );

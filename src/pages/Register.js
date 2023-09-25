@@ -15,8 +15,8 @@ const Register = () => {
         } else {
             setEmailError("");
         }
-        if (password.length < 8) {
-            setPasswordError("Le mot de passe doit avoir au moins 8 caractères");
+        if (password.length < 9) {
+            setPasswordError("Le mot de passe doit avoir au moins 9 caractères");
         } else {
             setPasswordError("");
         }

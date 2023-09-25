@@ -1,11 +1,11 @@
-.Register{
+.Login{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     .container{
         width: 603px;
-        height: 680px;
+        height: 559px;
         background: #FBFBFB;
         border-radius: 41px;
         box-shadow: 13px 16px 12px 4px rgba(0, 0, 0, 0.314), inset 8px 6px 11px -4px rgba(0, 0, 0, 0.314);
@@ -22,8 +22,8 @@
             flex-direction: column;
             padding: 10px;
             input{
-                padding: 18px 19px;
-                margin: 15px;
+                padding: 18px 36px;
+                margin: 25px;
                 border-radius: 20px;
                 border: none;
                 background: #DCDCDC;
@@ -32,25 +32,27 @@
                     font-family: $Font-OpenSans;
                     font-weight: lighter;
                 }&:focus{
-                    outline: #218555 solid 2px;
+                    outline: $DefaultColor solid 2px;
                 }
-            }
-            input[type=submit]{
+                
+            }input[type=submit]{
                 background: white;
-                color: #218555;
+                color: $DefaultColor;
                 font-size: 24px;
                 border-radius: 30px;
-                outline: #218555 2px solid;
+                outline: $DefaultColor 2px solid;
                 transition: 0.3s;
                 &:hover{
-                    background: #218555;
+                    background: $DefaultColor;
                     color: white;
                     transition: 0.3s;
                 }
-            }p{
-                font-family: $Font-OpenSans;
-                color: red;
             }
-    }
+        }p{
+            border-bottom: $DefaultColor 2.8px solid;
+            font-family: $Font-OpenSans;
+            font-size: 20px;
+            color: black;
+        }
     }
 }
